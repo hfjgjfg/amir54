@@ -1,38 +1,38 @@
 local function run(msg)
-if msg.text == "hi" then
-	return "Hi Baby :)"
+if msg.text == "سلام" then
+	return "علیک :)"
 end
 if msg.text == "Hi" then
-	return "Hello Honey :)"
+	return "کیرخر :)"
 end
-if msg.text == "Hello" then
-	return "Hi :)"
+if msg.text == "ممد" then
+	return "کیرم تو گس عمت :)"
 end
-if msg.text == "hello" then
-	return "Hi Honey"
+if msg.text == "نیما" then
+	return "کیرخر تو جد وآبادش"
 end
 if msg.text == "Salam" then
-	return "Salam Azizam"
+	return "سلام کونی"
 end
-if msg.text == "salam" then
-	return "Salam"
+if msg.text == "کونی" then
+	return "سرش بمونی با شرت خونی آواز بخونی"
 end
 if msg.text == "amir" then
-	return "Ha?"
+	return "چیه کونی"
 end
-if msg.text == "Amir" then
-	return "Koft Chikaresh Dari?"
+if msg.text == "محمد" then
+	return "کونده مزاحم نباش سرش شلوغه"
 end
-if msg.text == "amin" then
-	return "Rafte Lala :/"
+if msg.text == "کس ننت" then
+	return "بامیمنت اینم سند :/"
 end
-if msg.text == "Amin" then
+if msg.text == "محمد دادا" then
 	return "Khabe :|"
 end
-if msg.text == "mamshotak" then
+if msg.text == "مگابات" then
 	return "Nagaiiidam!"
 end
-if msg.text == "Mamshotak" then
+if msg.text == "نیمانجفیات" then
 	return "چچچ نگاییدم"
 end
 if msg.text == "?" then
@@ -51,7 +51,7 @@ if msg.text == "kir" then
 	return "Dos Dari?"
 end
 if msg.text == "Bye" then
-	return "Bye Dayus"
+	return "Bye koni"
 end
 if msg.text == "bye" then
 	return "Bye"
@@ -59,22 +59,22 @@ end
 if msg.text == "سلام" then
 	return "سلام"
 end
-if msg.text == "سلام زامارین" then
+if msg.text == "سلام محمد" then
 	return "سلام عزیزم :)"
 end
-if msg.text == "زامارین سلام" then
+if msg.text == "سلام عشقم" then
 	return "سلام عزیزم :)"
 end
 if msg.text == "ممشوتک" then
 	return "چچچ نگاییدم"
 end
-if msg.text == "امین" then
-	return "رفته استخر :|"
+if msg.text == "محمد دادا" then
+	return "رفته ننه نیما رو بگاد:|"
 end
-if msg.text == "زامارین" then
+if msg.text == "امیر" then
 	return "ها چیه؟"
 end
-if msg.text == "ایلیا" then
+if msg.text == "mohammad" then
 	return "با جیگرم چیکار داری؟"
 end
 if msg.text == "سپهر" then
@@ -86,14 +86,14 @@ end
 if msg.text == "امیر" then
 	return "با باباییم چیکار داری؟ 😐"
 end
-if msg.text == "امیر دارک" then
+if msg.text == "محمد کجایی" then
 	return "با باباییم چیکار داری؟ 😐"
 end
 if msg.text == "کله شیری" then
 	return "باباته کله کیییری 😐"
 end
-if msg.text == "زن امیر دارک اسمش چیه؟" then
-	return "زن امیر دارک میشه مامان من کونی 😕"
+if msg.text == "کس ننت" then
+	return "بامیمنت اینم سند�"
 end
 if msg.text == "بات" then
 	return "چیه چس ممبر 🤔"
@@ -113,8 +113,8 @@ end
 if msg.text == "خوبی؟" then
 	return "مرسی عزیزم تو خوبی؟"
 end
-if msg.text == "زامارین خوبی؟" then
-	return "مرسی 😁"
+if msg.text == "!teleseed" then
+	return "کیرشدی :D 😁"
 end
 end
 
@@ -122,7 +122,7 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-    "^[Hh]i$",
+    "^[Aa]mir$",
 	"^[Hh]ello$",
     "^[Ss]alam$",
     "^[Aa]mir$",
@@ -138,21 +138,21 @@ return {
   "^زامارین سلام",
 	"^ممشوتک",	
 	"^امین",	
-	"^زامارین",
+	"^مگابات",
 	"^ایلیا",
 	"^سپهر",
 	"^مبینا",
 	"^امیر",
-	"^امیر دارک",
+	"^mohammad",
 	"^کله شیری",
-	"^زن امیر دارک اسمش چیه؟",	
+	"^کس ننت,	
 	"^بات",
 	"^ربات",
 	"^سید",
-	"^تله سید",
+	"^!teleseed",
 	"^خوبی",
-	"^خوبی؟",
-	"^زامارین خوبی؟",
+	"^ممد",
+	"^محمد,
 		
 		}, 
 	run = run,
