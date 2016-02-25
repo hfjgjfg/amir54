@@ -1,19 +1,5 @@
---[[
-#
-# Show users information in groups 
-#
-# author: Amir < @AmirDark > 
-# our channel: @DarkTeam
-# Version: 2016-04-02
-#
-# Features added:
-# -- setrank on reply
-# -- get users info with their IDs and @username
-#
-]]
-
 do
-local Arian = 119626024 --put your id here(BOT OWNER ID)
+local Arian = 150575718 --put your id here(BOT OWNER ID)
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -250,4 +236,3 @@ return {
 
 end
 
--- Edit by @AmirDark Thanks to Arian and Arman :|
